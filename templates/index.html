@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meloman Kitap Management</title>
+</head>
+<body>
+    <h1>Meloman Kitap Management</h1>
+    <h2>Insert a new Kitap , please:</h2>
+    <form id="formForInserting">
+        <input type="text" id="kitap_name" placeholder="Book Name" required>
+        <input type="text" id="writer" placeholder="Author" required>
+        <input type="number" id="release_date" placeholder="Release Year" required>
+        <input type="text" id="issuer" placeholder="Publisher" required>
+        <input type="number" id="pages" placeholder="Number of Pages" required>
+        <button type="submit">Insert Kitap</button>
+    </form>
+
+    <h2>Our Kitaps</h2>
+    <ul id="kitapList"></ul>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
