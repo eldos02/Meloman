@@ -1,5 +1,7 @@
 # Dockerized Web Application Deployment with Bash Automation
-## In this project, we built a web application in Python Flask and created bash scripts to automate i## Project Architecture
+## In this project, we built a web application in Python Flask and created bash scripts to automate image building and deployment of the application. Also with bash scripts we created a deployment pipeline with three stages: build , test, deploy.
+
+## Project Architecture
 1. **Backend:** Python (Flask framework)
 2. **Frontend:** HTML + JS
 3. **Database:** MySQL (Web Interface: phpMyAdmin)
