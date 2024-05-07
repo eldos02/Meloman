@@ -62,6 +62,7 @@ Enter the following commands one by one:
 If you're new to Docker, check out the [Docker documentation](https://docs.docker.com/get-started/overview/)
 to get started.
 That's it! Follow these instructions and you will successfully launch our project on your computer.
+
 **The project was developed by:**
 - **Sanabek Yeldos:** [GitHub](https://github.com/eldos02)
 - **Yerdali Akarys:** [GitHub](https://github.com/profaka)
